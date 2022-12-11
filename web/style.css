@@ -1,0 +1,66 @@
+
+.parameterDescription{
+
+    font-size: smaller;
+    background-color: rgb(176, 168, 168);
+    padding-block: 4px;
+    max-height: 0;
+    scale: 0;
+    display:grid;
+}
+
+.content
+{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 100%;
+    height: fit-content;
+    display: flex;
+    top: 0;
+    left: 0;    
+}
+
+
+.indices
+{
+    background-color: rgb(116, 102, 102);
+}
+
+.dataView
+{
+    background-color: rgba(0, 0, 0, 0.771);
+    height: 100%;
+    width: 400px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.indiceParameterButton
+{
+    background-color: rgb(88, 119, 146);
+}
+
+ul 
+{
+    padding: 2px;
+}
+
+ol ul{
+   
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: relative;
+    left: -4%;
+}
+
+ol{
+    list-style:upper-roman;
+}
+.indiceContent
+{
+    background-color: rgb(186, 144, 144);
+}
+
+
